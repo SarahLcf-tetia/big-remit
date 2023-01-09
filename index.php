@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Big Remit</title>
+    <link rel="icon" type="image/x-icon" href="./media/favicon-Br.ico">
     <link href="index.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script src="timer.js"></script>
@@ -23,7 +24,7 @@
             Big Remit has developed a service to meet this vital need: paying or transferring large amounts of money.<br>
             This service relies on its banking and technological partners to perform these operations in a totally compliant and secure manner.<br>
             <br>
-            Our service is currently being tested and validated. We plan to open Big Remit in early 2023. Just a little more patience ! 
+            Our service is currently being tested and validated. We plan to open Big Remit in early 2023. Just a little more patience ! <br>
             In the meantime, we send you all our best wishes for this new year.<br>
             <br>
             The Big Remit Team

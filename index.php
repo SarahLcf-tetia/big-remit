@@ -23,8 +23,8 @@
             Big Remit has developed a service to meet this vital need: paying or transferring large amounts of money.<br>
             This service relies on its banking and technological partners to perform these operations in a totally compliant and secure manner.<br>
             <br>
-            Our service is currently being tested and validated. We plan to open Big Remit in early 2023. Just a little more patience !<br>
-            In the meantime, we wish you a very happy holiday season, surrounded by the affection of your loved ones.<br>
+            Our service is currently being tested and validated. We plan to open Big Remit in early 2023. Just a little more patience ! 
+            In the meantime, we send you all our best wishes for this new year.<br>
             <br>
             The Big Remit Team
         </p>

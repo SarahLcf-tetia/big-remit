@@ -1,3 +1,4 @@
+<?php include('./database.php');?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -9,7 +10,6 @@
     <link href="index.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script src="timer.js"></script>
-    <script src="register.js"></script>
 </head>
 <body>
     <img src="./media/logo_bigremit.png" alt="logo_bigremit" id="logo">

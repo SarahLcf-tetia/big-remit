@@ -16,6 +16,7 @@
         height: 130px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
+
     h1{
         position: absolute;
         text-align: center;
@@ -30,6 +31,7 @@
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
+
     #text{
         position: absolute;
         width: 480px;
@@ -618,10 +620,10 @@
         border: 1px solid #82704C;
     }
     #section_B{
-        position: relative;
+        position: absolute;
         width: 539px;
         height: 341px;
-        left: 1050px;
+        left: 1100px;
         top: 611px;
         background: #C3AA77;
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);

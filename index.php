@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pour nos clients, utiliser Big Remit est aussi simple qu'envoyer de l'argent de A à B, mais derrière nos services et notre site web se cache un moteur complexe de services, de devises, de routes sécurisées et conformes, qui est conçu, mis en œuvre par nos équipes et nos partenaires.">
+    <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34=">
+    <meta name="robots" content="index,nofollow">
     <title>Big Remit</title>
     <link rel="icon" type="image/x-icon" href="./media/favicon-Br.ico">
     <link href="index.css" rel="stylesheet" type="text/css">

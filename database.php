@@ -7,6 +7,8 @@
             $password = "Tetia37Tetia37";
             //$dbname= '';
             $dbname = "dbs9971371";
+
+            echo "<script>console.log('Lancement database')</script>";
             
             try{
                 //On établit la connexion

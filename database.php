@@ -19,24 +19,6 @@
         //echo 'Connexion réussie';
         echo "<script>console.log('Connexion réussite')</script>";
 
-        global $pdo;
-
-        $sql = "INSERT INTO newsletter(mail, registration_date) 
-                            VALUES (:mail, :registration_date)";
-
-        $sth= $pdo->prepare($sql);
-        try {
-            $sth->execute(
-                array(
-                    ':mail' => "test@mail",
-                    ':registration_date' => date("Y-m-d-H:i:s")
-                )
-            );
-        }
-        catch (Exception $e) {
-            echo $e;
-        }
-
     }
     
     /*On capture les exceptions si une exception est lancée et on affiche

@@ -1,4 +1,4 @@
-<?php include('./database.php');?>
+<?php include('./newsletter.php');?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -83,19 +83,18 @@
 </body>
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email = $_POST['EMAIL'];
-    if (empty($email)) {
-        echo "<script>document.getElementById('error_message').innerHTML='* Email is empty'</script>";
-    } else {
-        if(strpos($email, "@") !== false && strpos($email, ".") !== false){
-            $fichier = fopen('./data/email.txt', 'a');
-            fwrite($fichier, $email . "; ");
-        }else{
-            echo "<script>document.getElementById('error_message').innerHTML='* Invalid Email'</script>";
+        $mail = $_POST['EMAIL'];
+        $date = date("Y-m-d-H:i:s");
+        if (empty($mail)) {
+            echo "<script>document.getElementById('error_message').innerHTML='* Email is empty'</script>";
+        } else {
+            if(strpos($mail, "@") !== false && strpos($mail, ".") !== false){
+                saveEmail($mail, $date);
+            }else{
+                echo "<script>document.getElementById('error_message').innerHTML='* Invalid Email'</script>";
+            }
         }
     }
-    }
 ?>
-
 </html>
 
